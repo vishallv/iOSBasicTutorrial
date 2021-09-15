@@ -10,9 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window = UIWindow()
         window?.makeKeyAndVisible()
-
+        window?.rootViewController = ImageViewController()
         return true
     }
 
 }
-

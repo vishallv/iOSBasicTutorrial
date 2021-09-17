@@ -10,9 +10,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window = UIWindow()
         window?.makeKeyAndVisible()
-
+        window?.rootViewController = ButtonViewController()
         return true
     }
 
 }
 
+// SPM SnapKit: https://github.com/SnapKit/SnapKit.git

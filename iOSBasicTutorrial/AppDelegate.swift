@@ -1,6 +1,8 @@
 
 import UIKit
 
+// SPM SnapKit: https://github.com/SnapKit/SnapKit.git
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -10,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window = UIWindow()
         window?.makeKeyAndVisible()
-
+        window?.rootViewController = TableViewController()
         return true
     }
 

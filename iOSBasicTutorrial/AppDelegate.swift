@@ -1,6 +1,8 @@
 
 import UIKit
 
+// SPM SnapKit URL: https://github.com/SnapKit/SnapKit.git
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

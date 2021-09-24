@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C940F68326FD986000438DDB /* TapGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C940F68226FD986000438DDB /* TapGestureViewController.swift */; };
 		C9C003E726F0537900AC90ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C003E626F0537900AC90ED /* AppDelegate.swift */; };
 		C9C003EE26F0537900AC90ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C003EC26F0537900AC90ED /* Main.storyboard */; };
 		C9C003F026F0537B00AC90ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C003EF26F0537B00AC90ED /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C940F68226FD986000438DDB /* TapGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapGestureViewController.swift; sourceTree = "<group>"; };
 		C9C003E326F0537900AC90ED /* iOSBasicTutorrial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSBasicTutorrial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C003E626F0537900AC90ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9C003ED26F0537900AC90ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C940F68126FD984A00438DDB /* TapGestureController */ = {
+			isa = PBXGroup;
+			children = (
+				C940F68226FD986000438DDB /* TapGestureViewController.swift */,
+			);
+			path = TapGestureController;
+			sourceTree = "<group>";
+		};
 		C9C003DA26F0537900AC90ED = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		C9C003E526F0537900AC90ED /* iOSBasicTutorrial */ = {
 			isa = PBXGroup;
 			children = (
+				C940F68126FD984A00438DDB /* TapGestureController */,
 				C9C003E626F0537900AC90ED /* AppDelegate.swift */,
 				C9C003EC26F0537900AC90ED /* Main.storyboard */,
 				C9C003EF26F0537B00AC90ED /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C940F68326FD986000438DDB /* TapGestureViewController.swift in Sources */,
 				C9C003E726F0537900AC90ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

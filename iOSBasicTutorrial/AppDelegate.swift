@@ -12,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window = UIWindow()
         window?.makeKeyAndVisible()
-
+        window?.rootViewController = UINavigationController(rootViewController: FirstViewController())
         return true
     }
 
